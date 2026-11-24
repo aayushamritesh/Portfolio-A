@@ -948,10 +948,19 @@ button, input, textarea {
     font-weight: 600;
 }
 
+.stat-degree {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-top: 5px;
+    line-height: 1.35;
+}
+
 .stat-label {
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     color: var(--text-muted);
     font-weight: 500;
+    margin-top: 2px;
 }
 
 /* Pillars Section */
@@ -1402,9 +1411,9 @@ button, input, textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 8px;
+    gap: 8px 12px;
     margin-bottom: 14px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .project-tag {
@@ -2447,17 +2456,11 @@ button, input, textarea {
 .footer-bottom {
     padding-top: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
+    text-align: center;
     font-size: 0.84rem;
     color: var(--text-muted);
-}
-
-.footer-subtext {
-    color: var(--sky-700);
-    font-weight: 500;
 }
 
 /* ===================================================================

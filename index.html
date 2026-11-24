@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f8fbff">
+    <meta name="description"
+        content="Ashwini S. Gudekar - M.Tech Computational Biology Researcher @ IIIT Delhi | Single-Cell Genomics, Clinical NLP, and Machine Learning Specialist.">
+    <meta name="keywords"
+        content="Ashwini S. Gudekar, Computational Biology, Bioinformatics, Single-Cell Genomics, scRNA-seq, Clinical NLP, IIIT Delhi, CSIR-NCL, Machine Learning, Deep Learning">
+    <meta name="author" content="Ashwini S. Gudekar">
+    <title>Ashwini S. Gudekar | Computational Biology & AI Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Ambient Cursor Glow Effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-mark"><i class="fas fa-dna"></i></span>
+                <span class="logo-text">Ashwini<span class="logo-dot">.</span></span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#thesis" class="nav-link">M.Tech Thesis</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#awards" class="nav-link">Awards</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-effects">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="ambient-grid"></div>
+        </div>
+
+        <div class="hero-container container">
+            <div class="hero-image-wrapper">
+                <div class="image-frame">
+                    <img src="assets/profile.png" alt="Ashwini S. Gudekar" class="profile-img">
+                    <div class="image-glow-ring"></div>
+                </div>
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    <span>Researcher @ IIIT Delhi</span>
+                </div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-greeting-pill">
+                    <i class="fas fa-sparkles"></i> Welcome to my portfolio
+                </div>
+                <h1 class="hero-name">Ashwini S. Gudekar</h1>
+                <div class="hero-role">
+                    <span class="role-prefix">I am a </span>
+                    <span class="role-text" id="roleText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-tagline">
+                    Bridging single-cell biology, clinical NLP, and machine learning to build intelligent computational
+                    systems that decode complex cellular dynamics and advance precision medicine.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#thesis" class="btn btn-primary">
+                        <i class="fas fa-heart-pulse"></i> View M.Tech Thesis
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-laptop-code"></i> Explore Projects
+                    </a>
+                    <a href="#contact" class="btn btn-glass">
+                        <i class="fas fa-paper-plane"></i> Get In Touch
+                    </a>
+                </div>
+
+                <div class="hero-social-strip">
+                    <span class="social-label">Connect:</span>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ashwini-s-gudekar-a92103376/" target="_blank"
+                            rel="noopener noreferrer" class="social-pill" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i> <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/ashwini25177" target="_blank" rel="noopener noreferrer"
+                            class="social-pill" aria-label="GitHub">
+                            <i class="fab fa-github"></i> <span>GitHub</span>
+                        </a>
+                        <a href="https://www.instagram.com/ashwini_s_gudekar/" target="_blank" rel="noopener noreferrer"
+                            class="social-pill" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i> <span>Instagram</span>
+                        </a>
+                        <a href="mailto:ashwini25177@iiitd.ac.in" class="social-pill" aria-label="Email">
+                            <i class="fas fa-envelope"></i> <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Explore My Work</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-narrative glass-card">
+                    <h3 class="about-card-title"><i class="fas fa-microscope"></i> Bridging Biology & Computational Intelligence</h3>
+                    <p class="about-lead">
+                        I am an <span class="highlight">M.Tech Computational Biology candidate at IIIT Delhi</span> with an interdisciplinary foundation combining cutting-edge data science with hands-on molecular biotechnology.
+                    </p>
+                    <p>
+                        My work revolves around solving complex biological questions using <span class="highlight">single-cell genomics (scRNA-seq)</span>, <span class="highlight">RNA velocity</span>, <span class="highlight">spatial transcriptomics</span>, and <span class="highlight">clinical NLP</span>. Currently, as part of my M.Tech thesis under the mentorship of Dr. Vibhor Kumar, I am constructing the <strong>Human Heart Developmental Atlas</strong>—integrating multi-study scRNA-seq datasets and tracing lineage trajectories across key developmental stages.
+                    </p>
+                    <p>
+                        Prior to IIIT Delhi, I spent a full year conducting multi-project research at <strong>CSIR–National Chemical Laboratory (NCL), Pune</strong> under Dr. Narendra Kadoo. There, I explored fungal metabolomics, ITS rDNA phylogenetics, and small RNA regulatory networks. This dual proficiency—both at the lab bench and behind computational clusters—allows me to design computational pipelines that remain deeply grounded in biological reality.
+                    </p>
+                </div>
+
+                <div class="about-stats-container">
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-number">8.06<small>/10</small></span>
+                            <span class="stat-label">M.Tech CGPA @ IIIT Delhi</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="fas fa-award"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-number">8.60<small>/10</small></span>
+                            <span class="stat-label">B.Tech CGPA (Biotech)</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="fas fa-flask"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-number">1 Year</span>
+                            <span class="stat-label">CSIR-NCL Research Fellow</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="fas fa-code-branch"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">Genomics & AI Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pillars of Expertise -->
+            <div class="pillars-section">
+                <h3 class="pillars-title">Core Research Pillars</h3>
+                <div class="pillars-grid">
+                    <div class="pillar-card glass-card">
+                        <div class="pillar-icon"><i class="fas fa-project-diagram"></i></div>
+                        <h4>Single-Cell & Spatial Genomics</h4>
+                        <p>High-dimensional scRNA-seq integration, batch effect harmonization (Harmony, BPCells), RNA Velocity, and cell lineage trajectory mapping.</p>
+                    </div>
+
+                    <div class="pillar-card glass-card">
+                        <div class="pillar-icon"><i class="fas fa-notes-medical"></i></div>
+                        <h4>Clinical NLP & Healthcare AI</h4>
+                        <p>Speech-to-insight pipelines (Whisper), biomedical NER (BioBERT, Med7), NegEx context detection, and automated HL7 FHIR SOAP generation.</p>
+                    </div>
+
+                    <div class="pillar-card glass-card">
+                        <div class="pillar-icon"><i class="fas fa-capsules"></i></div>
+                        <h4>CADD & Molecular Modeling</h4>
+                        <p>Structure-based virtual screening with AutoDock Vina, ADMET profiling, and dynamic binding stability validation with GROMACS MD simulations.</p>
+                    </div>
+
+                    <div class="pillar-card glass-card">
+                        <div class="pillar-icon"><i class="fas fa-vial"></i></div>
+                        <h4>Wet-Lab & Metabolomics</h4>
+                        <p>ITS rDNA amplicon sequencing, phylogenetic tree inference (MEGA, BLAST), untargeted LC-MS metabolomics (MS-DIAL), and RT-PCR.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- M.Tech Thesis Section (Dedicated Standalone Section) -->
+    <section class="section thesis" id="thesis">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">M.Tech <span>Thesis</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="thesis-card glass-card">
+                <div class="thesis-header">
+                    <div class="thesis-badge-group">
+                        <span class="badge badge-accent"><i class="fas fa-university"></i> IIIT Delhi</span>
+                        <span class="badge badge-subtle"><i class="far fa-calendar-alt"></i> Jan 2026 – Present (2025 – 2027)</span>
+                        <span class="badge badge-subtle"><i class="fas fa-users"></i> Team Size: 2</span>
+                    </div>
+                    <h3 class="thesis-title">Human Heart Developmental Atlas</h3>
+                    <p class="thesis-advisors">
+                        <i class="fas fa-user-tie"></i> <strong>Advisor:</strong> Dr. Vibhor Kumar, Associate Professor, Department of Computational Biology, IIIT Delhi
+                    </p>
+                </div>
+
+                <div class="thesis-body">
+                    <div class="thesis-column">
+                        <h4 class="thesis-subheading"><i class="fas fa-bullseye"></i> Research Overview & Aim</h4>
+                        <p class="thesis-text">
+                            During human cardiogenesis, progenitor cells undergo strictly timed lineage bifurcations giving rise to cardiomyocytes, epicardial, endocardial, and vascular lineages. Understanding the molecular underpinnings of heart development is vital for modeling congenital heart diseases and regenerative therapeutics.
+                        </p>
+                        <p class="thesis-text">
+                            This thesis constructs an integrated, multi-resolution <strong>Human Heart Developmental Atlas</strong> by leveraging massive public and collaborator single-cell RNA sequencing (scRNA-seq) profiles spanning gestational stages through mature cardiac states.
+                        </p>
+                    </div>
+
+                    <div class="thesis-column">
+                        <h4 class="thesis-subheading"><i class="fas fa-cogs"></i> Technical Innovations & Pipeline</h4>
+                        <ul class="thesis-highlights">
+                            <li>
+                                <div class="highlight-bullet"><i class="fas fa-check"></i></div>
+                                <div>
+                                    <strong>Large-Scale Dataset Integration:</strong> Constructing scalable computational pipelines utilizing <em>Seurat</em>, <em>Harmony</em>, and <em>BPCells</em> for disk-backed matrix operations, handling hundreds of thousands of cardiac cells without memory bottlenecks.
+                                </div>
+                            </li>
+                            <li>
+                                <div class="highlight-bullet"><i class="fas fa-check"></i></div>
+                                <div>
+                                    <strong>Cell-Type Harmonization & QC:</strong> Establishing rigorous quality control, doublet removal, mitochondrial filtering, and unified cell ontology mapping across disparate single-cell studies.
+                                </div>
+                            </li>
+                            <li>
+                                <div class="highlight-bullet"><i class="fas fa-check"></i></div>
+                                <div>
+                                    <strong>Dynamics, Velocity & Spatial Extension:</strong> Applying <em>RNA Velocity</em> (spliced vs. unspliced kinetics) and <em>Spatial Transcriptomics</em> to reconstruct cell-state transitions, lineage progression, and developmental dynamics in anatomic context.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pipeline Visualizer -->
+                <div class="pipeline-card">
+                    <h4 class="pipeline-title"><i class="fas fa-network-wired"></i> Computational Atlas Pipeline Flow</h4>
+                    <div class="pipeline-steps">
+                        <div class="pipeline-step">
+                            <span class="step-num">01</span>
+                            <h5>Raw scRNA-seq</h5>
+                            <p>Multi-cohort count matrices & spatial slices</p>
+                        </div>
+                        <div class="pipeline-connector"><i class="fas fa-arrow-right"></i></div>
+                        <div class="pipeline-step">
+                            <span class="step-num">02</span>
+                            <h5>QC & Filtering</h5>
+                            <p>Doublet filtering, BPCells matrix scaling</p>
+                        </div>
+                        <div class="pipeline-connector"><i class="fas fa-arrow-right"></i></div>
+                        <div class="pipeline-step">
+                            <span class="step-num">03</span>
+                            <h5>Harmony Integration</h5>
+                            <p>Batch correction & invariant embedding</p>
+                        </div>
+                        <div class="pipeline-connector"><i class="fas fa-arrow-right"></i></div>
+                        <div class="pipeline-step">
+                            <span class="step-num">04</span>
+                            <h5>RNA Velocity & Trajectory</h5>
+                            <p>UniPath, Monocle, lineage tracing</p>
+                        </div>
+                        <div class="pipeline-connector"><i class="fas fa-arrow-right"></i></div>
+                        <div class="pipeline-step">
+                            <span class="step-num">05</span>
+                            <h5>Cardiogenesis Atlas</h5>
+                            <p>Interactive spatial & temporal map</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="thesis-tags">
+                    <span class="tech-tag"><i class="fas fa-tag"></i> scRNA-seq</span>
+                    <span class="tech-tag"><i class="fas fa-tag"></i> RNA Velocity</span>
+                    <span class="tech-tag"><i class="fas fa-tag"></i> Spatial Transcriptomics</span>
+                    <span class="tech-tag"><i class="fas fa-tag"></i> Harmony</span>
+                    <span class="tech-tag"><i class="fas fa-tag"></i> BPCells</span>
+                    <span class="tech-tag"><i class="fas fa-tag"></i> Seurat</span>
+                    <span class="tech-tag"><i class="fas fa-tag"></i> Trajectory Inference</span>
+                    <span class="tech-tag"><i class="fas fa-tag"></i> IIIT Delhi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Experience Section (Dedicated Standalone Section) -->
+    <section class="section research" id="research">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Research <span>Experience</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="research-grid">
+                <div class="research-card glass-card">
+                    <div class="research-top">
+                        <div class="research-logo-icon">
+                            <i class="fas fa-flask-vial"></i>
+                        </div>
+                        <div class="research-meta">
+                            <div class="badge-row">
+                                <span class="badge badge-accent">Research Internship</span>
+                                <span class="badge badge-subtle"><i class="far fa-calendar-alt"></i> June 2024 – May 2025</span>
+                            </div>
+                            <h3 class="research-role">Research Intern (Year-Long Multi-Project Fellowship)</h3>
+                            <h4 class="research-institution">CSIR–National Chemical Laboratory (NCL), Pune</h4>
+                            <p class="research-guide">
+                                <i class="fas fa-user-check"></i> <strong>Mentor:</strong> Dr. Narendra Kadoo, Chief Scientist, Biochemical Sciences Division, CSIR-NCL
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="research-narrative">
+                        <p>
+                            Completed an intensive year-long research internship bridging wet-bench molecular microbiology, mass spectrometry metabolomics, and bioinformatics. Owned three interconnected sub-projects investigating plant-microbe symbiosis and bioactive secondary metabolites.
+                        </p>
+                    </div>
+
+                    <div class="research-contributions-grid">
+                        <div class="contribution-item">
+                            <div class="contrib-icon"><i class="fas fa-dna"></i></div>
+                            <h5>Endophytic Fungal Diversity & Phylogenetics</h5>
+                            <p>
+                                Isolated and characterized novel endophytic fungal strains from medicinal plants. Executed genomic DNA extraction, PCR amplification of <strong>ITS rDNA</strong> barcode regions, sequencing analysis, and constructed evolutionary trees via <strong>BLAST, MEGA, and NCBI databases</strong>.
+                            </p>
+                        </div>
+
+                        <div class="contribution-item">
+                            <div class="contrib-icon"><i class="fas fa-chart-line"></i></div>
+                            <h5>Bioactive Metabolomics Profiling</h5>
+                            <p>
+                                Extracted secondary fungal metabolites and conducted untargeted metabolomics using <strong>MS-DIAL</strong> and <strong>MetaboAnalyst 6.0</strong>. Identified chemical families with potent antimicrobial and antioxidant therapeutic potential.
+                            </p>
+                        </div>
+
+                        <div class="contribution-item">
+                            <div class="contrib-icon"><i class="fas fa-network-wired"></i></div>
+                            <h5>Small RNA-seq & Target Regulatory Networks</h5>
+                            <p>
+                                Processed small RNA sequencing datasets to predict microRNA (miRNA) targets using <strong>OmicsBox, miRDeep, and psRNATarget</strong>. Mapped functional protein-protein interaction networks with <strong>STRING</strong> to decode cross-kingdom plant–fungal signaling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="research-footer">
+                        <div class="research-tags">
+                            <span>ITS rDNA</span>
+                            <span>Phylogenetic Analysis (MEGA)</span>
+                            <span>Untargeted Metabolomics</span>
+                            <span>MS-DIAL</span>
+                            <span>MetaboAnalyst 6.0</span>
+                            <span>Small RNA-seq</span>
+                            <span>psRNATarget</span>
+                            <span>STRING Networks</span>
+                        </div>
+
+                        <a href="https://drive.google.com/file/d/1YldWwg3OcOfhnslebptfS-YAhWwAPn6N/view?usp=sharing"
+                            target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                            <i class="fas fa-certificate"></i> View CSIR-NCL Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (All 7 projects, prioritized with college resume first) -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Project Filter Tabs -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects <span class="filter-count">(7)</span></button>
+                <button class="filter-btn" data-filter="clinical-ai">Clinical AI & NLP <span class="filter-count">(2)</span></button>
+                <button class="filter-btn" data-filter="genomics">Genomics & Machine Learning <span class="filter-count">(3)</span></button>
+                <button class="filter-btn" data-filter="cadd">CADD & Drug Discovery <span class="filter-count">(1)</span></button>
+                <button class="filter-btn" data-filter="rag">Bioinformatics RAG <span class="filter-count">(1)</span></button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- 1. ClinScribe AI (College Priority 1) -->
+                <div class="project-card glass-card" data-category="clinical-ai">
+                    <div class="project-card-header">
+                        <div class="project-badge-row">
+                            <span class="project-tag clinical">Clinical NLP & Voice</span>
+                            <span class="project-date">Sept 2026 – Oct 2026</span>
+                        </div>
+                        <h3 class="project-title">ClinScribe AI</h3>
+                        <p class="project-subtitle">Clinical Speech-to-Insight & Automated FHIR Documentation</p>
+                    </div>
+
+                    <div class="project-card-body">
+                        <p class="project-desc">
+                            Architected an end-to-end clinical NLP pipeline integrating OpenAI Whisper (ASR), BioBERT (biomedical NER), and Flan-T5 (summarization) to transcribe doctor-patient conversations, extract clinical entities, and generate HL7 FHIR R4-compliant SOAP notes.
+                        </p>
+                        <p class="project-detail-snippet">
+                            Developed a Dockerized FastAPI backend with Pydantic v2 validation, neural-to-regex fallback inference, and a responsive web app with real-time audio recording; implemented GitHub Actions CI/CD with NLP benchmarking.
+                        </p>
+                    </div>
+
+                    <div class="project-card-footer">
+                        <div class="project-tech-chips">
+                            <span>OpenAI Whisper</span>
+                            <span>BioBERT</span>
+                            <span>Flan-T5</span>
+                            <span>FastAPI</span>
+                            <span>Docker</span>
+                            <span>HL7 FHIR R4</span>
+                            <span>CI/CD</span>
+                        </div>
+                        <div class="project-action-links">
+                            <a href="https://clinscribe-ai.onrender.com/" target="_blank" rel="noopener noreferrer"
+                                class="p-btn live-btn">
+                                <i class="fas fa-arrow-up-right-from-square"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/ashwini25177" target="_blank" rel="noopener noreferrer"
+                                class="p-btn git-btn" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <button class="p-btn detail-btn" onclick="openProjectModal('clinscribe')">
+                                <i class="fas fa-info-circle"></i> Deep Dive
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Med7-Plus (College Priority 2) -->
+                <div class="project-card glass-card" data-category="clinical-ai">
+                    <div class="project-card-header">
+                        <div class="project-badge-row">
+                            <span class="project-tag clinical">Clinical NLP & NER</span>
+                            <span class="project-date">May 2026 – June 2026</span>
+                        </div>
+                        <h3 class="project-title">Med7-Plus</h3>
+                        <p class="project-subtitle">Clinical Information Extraction & Medication NER System</p>
+                    </div>
+
+                    <div class="project-card-body">
+                        <p class="project-desc">
+                            Extended the Med7 clinical NLP framework with medication slot linking, NegEx-based negation and context detection, and RxNorm normalization to extract and associate drugs, dosages, routes, frequencies, and adverse effects.
+                        </p>
+                        <p class="project-detail-snippet">
+                            Engineered an interactive Streamlit clinical dashboard and FastAPI REST service with HL7 FHIR R4 MedicationStatement export, automated strict/lenient F1 evaluation, and neural-to-regex fallback inference.
+                        </p>
+                    </div>
+
+                    <div class="project-card-footer">
+                        <div class="project-tech-chips">
+                            <span>Med7 NER</span>
+                            <span>NegEx Context</span>
+                            <span>RxNorm Normalization</span>
+                            <span>Streamlit</span>
+                            <span>FastAPI</span>
+                            <span>HL7 FHIR</span>
+                        </div>
+                        <div class="project-action-links">
+                            <a href="https://med7-plus-nckaxmnqqydo8tctraasik.streamlit.app/" target="_blank"
+                                rel="noopener noreferrer" class="p-btn live-btn">
+                                <i class="fas fa-arrow-up-right-from-square"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/ashwini25177" target="_blank" rel="noopener noreferrer"
+                                class="p-btn git-btn" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <button class="p-btn detail-btn" onclick="openProjectModal('med7')">
+                                <i class="fas fa-info-circle"></i> Deep Dive
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. HumanCellAI (College Priority 3) -->
+                <div class="project-card glass-card" data-category="rag">
+                    <div class="project-card-header">
+                        <div class="project-badge-row">
+                            <span class="project-tag genomics">Genomics RAG & LLMs</span>
+                            <span class="project-date">Feb 2026 – Mar 2026</span>
+                        </div>
+                        <h3 class="project-title">HumanCellAI</h3>
+                        <p class="project-subtitle">Citation-Grounded RAG System for Single-Cell Biology Research</p>
+                    </div>
+
+                    <div class="project-card-body">
+                        <p class="project-desc">
+                            Developed a citation-grounded Retrieval-Augmented Generation (RAG) system integrating FAISS vector retrieval, cross-encoder neural reranking, and a local LLM for evidence-backed scientific question answering in computational biology.
+                        </p>
+                        <p class="project-detail-snippet">
+                            Indexed peer-reviewed literature on human heart development, scRNA-seq, and trajectory inference, grounding every generated assertion in published evidence to mitigate hallucinations; deployed with Streamlit.
+                        </p>
+                    </div>
+
+                    <div class="project-card-footer">
+                        <div class="project-tech-chips">
+                            <span>FAISS Vector Search</span>
+                            <span>Cross-Encoder</span>
+                            <span>Local LLM</span>
+                            <span>scRNA-seq Literature</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <div class="project-action-links">
+                            <a href="https://humancellai-wcyemmuhdq82jxnfarjuve.streamlit.app/" target="_blank"
+                                rel="noopener noreferrer" class="p-btn live-btn">
+                                <i class="fas fa-arrow-up-right-from-square"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/ashwini25177/HumanCellAI" target="_blank" rel="noopener noreferrer"
+                                class="p-btn git-btn" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <button class="p-btn detail-btn" onclick="openProjectModal('humancellai')">
+                                <i class="fas fa-info-circle"></i> Deep Dive
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Gene Expression Prediction in GM12878 -->
+                <div class="project-card glass-card" data-category="genomics">
+                    <div class="project-card-header">
+                        <div class="project-badge-row">
+                            <span class="project-tag ml">Epigenomics & ML</span>
+                            <span class="project-date">Machine Learning / Genomics</span>
+                        </div>
+                        <h3 class="project-title">Gene Expression Prediction in GM12878</h3>
+                        <p class="project-subtitle">TF Motif & Epigenomic Signal Integration</p>
+                    </div>
+
+                    <div class="project-card-body">
+                        <p class="project-desc">
+                            Constructed a TF motif–gene expression feature matrix by intersecting ENCODE enhancer peaks with JASPAR 2024 transcription factor motif scores and promoter windows in GM12878 cell lines, linked to quantitative gene expression values.
+                        </p>
+                        <p class="project-detail-snippet">
+                            Conducted LASSO regression with rigorous feature ablation across experimental conditions. Implemented a Branched Deep Neural Network and XGBoost models, with XGBoost achieving superior generalizability and predictive power.
+                        </p>
+                    </div>
+
+                    <div class="project-card-footer">
+                        <div class="project-tech-chips">
+                            <span>XGBoost</span>
+                            <span>Branched DNN</span>
+                            <span>ENCODE Enhancers</span>
+                            <span>JASPAR 2024</span>
+                            <span>LASSO Ablation</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-action-links">
+                            <a href="https://github.com/ashwini25177/Gene-Expression-Prediction-from-TF-Motif-and-Epigenomic-Features-in-GM12878"
+                                target="_blank" rel="noopener noreferrer" class="p-btn git-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <button class="p-btn detail-btn" onclick="openProjectModal('gm12878')">
+                                <i class="fas fa-info-circle"></i> Deep Dive
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Comparative Drug Screening Against Calpain-1 -->
+                <div class="project-card glass-card" data-category="cadd">
+                    <div class="project-card-header">
+                        <div class="project-badge-row">
+                            <span class="project-tag cadd">Molecular Docking & MD</span>
+                            <span class="project-date">CADD / Structural Biology</span>
+                        </div>
+                        <h3 class="project-title">Drug Screening Against Calpain-1</h3>
+                        <p class="project-subtitle">In-Silico Docking & GROMACS Molecular Dynamics Simulation</p>
+                    </div>
+
+                    <div class="project-card-body">
+                        <p class="project-desc">
+                            Performed structure-based virtual screening of a curated bioactive compound library targeting Calpain-1 using AutoDock Vina, preceded by Lipinski drug-likeness and ADMET filtering.
+                        </p>
+                        <p class="project-detail-snippet">
+                            Discovered a novel top-scoring hit outperforming the standard reference inhibitor in binding affinity (-9.4 kcal/mol). Validated dynamic binding stability and RMSD/RMSF conformational equilibrium via GROMACS MD simulation.
+                        </p>
+                    </div>
+
+                    <div class="project-card-footer">
+                        <div class="project-tech-chips">
+                            <span>AutoDock Vina</span>
+                            <span>GROMACS MD</span>
+                            <span>ADMET Profiling</span>
+                            <span>PyMOL</span>
+                            <span>Chemoinformatics</span>
+                        </div>
+                        <div class="project-action-links">
+                            <a href="https://github.com/ashwini25177/calpain-molecular-docking" target="_blank"
+                                rel="noopener noreferrer" class="p-btn git-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <button class="p-btn detail-btn" onclick="openProjectModal('calpain')">
+                                <i class="fas fa-info-circle"></i> Deep Dive
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. ZINB-VAE for scRNA-seq Denoising -->
+                <div class="project-card glass-card" data-category="genomics">
+                    <div class="project-card-header">
+                        <div class="project-badge-row">
+                            <span class="project-tag deeplearning">Deep Generative Models</span>
+                            <span class="project-date">PyTorch / scRNA-seq</span>
+                        </div>
+                        <h3 class="project-title">ZINB-VAE for scRNA-seq</h3>
+                        <p class="project-subtitle">Zero-Inflated Negative Binomial Autoencoder for Denoising</p>
+                    </div>
+
+                    <div class="project-card-body">
+                        <p class="project-desc">
+                            Implemented a Zero-Inflated Negative Binomial Variational Autoencoder (ZINB-VAE) from scratch in PyTorch with KL divergence annealing to explicitly model count sparsity, dropout events, and overdispersion in scRNA-seq.
+                        </p>
+                        <p class="project-detail-snippet">
+                            Benchmarked against PCA and standard MSE-Autoencoder baselines; ZINB-VAE demonstrated substantially lower expression imputation error and superior preservation of latent cell-type manifold clusters.
+                        </p>
+                    </div>
+
+                    <div class="project-card-footer">
+                        <div class="project-tech-chips">
+                            <span>PyTorch</span>
+                            <span>ZINB Loss</span>
+                            <span>Variational Autoencoder</span>
+                            <span>scRNA-seq Denoising</span>
+                            <span>KL Annealing</span>
+                        </div>
+                        <div class="project-action-links">
+                            <a href="https://github.com/ashwini25177/zinb-vae-scrna-seq" target="_blank"
+                                rel="noopener noreferrer" class="p-btn git-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <button class="p-btn detail-btn" onclick="openProjectModal('zinbvae')">
+                                <i class="fas fa-info-circle"></i> Deep Dive
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Cross-Species Temporal Alignment of Fetal Brain -->
+                <div class="project-card glass-card" data-category="genomics">
+                    <div class="project-card-header">
+                        <div class="project-badge-row">
+                            <span class="project-tag genomics">Developmental Transcriptomics</span>
+                            <span class="project-date">Comparative Genomics</span>
+                        </div>
+                        <h3 class="project-title">Cross-Species Fetal Brain Alignment</h3>
+                        <p class="project-subtitle">Single-Cell Transcriptomics & Trajectory Alignment</p>
+                    </div>
+
+                    <div class="project-card-body">
+                        <p class="project-desc">
+                            Processed and integrated scRNA-seq datasets from human and mouse fetal brain tissues to distinguish conserved neurodevelopmental trajectories from species-specific cellular innovations.
+                        </p>
+                        <p class="project-detail-snippet">
+                            Applied UniPath pathway activity scoring for trajectory inference and pseudo-temporal ordering, successfully capturing synchronous neural progenitor differentiation dynamics across species.
+                        </p>
+                    </div>
+
+                    <div class="project-card-footer">
+                        <div class="project-tech-chips">
+                            <span>Single-Cell RNA-seq</span>
+                            <span>UniPath</span>
+                            <span>Cross-Species Mapping</span>
+                            <span>Trajectory Inference</span>
+                            <span>R & Seurat</span>
+                        </div>
+                        <div class="project-action-links">
+                            <a href="https://github.com/ashwini25177" target="_blank" rel="noopener noreferrer"
+                                class="p-btn git-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <button class="p-btn detail-btn" onclick="openProjectModal('fetalbrain')">
+                                <i class="fas fa-info-circle"></i> Deep Dive
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical <span>Skills</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Category 1: Single-Cell & Genomics -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-dna"></i></div>
+                        <h3>Single-Cell & Genomics</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Seurat</span>
+                        <span class="skill-pill">Harmony Integration</span>
+                        <span class="skill-pill">BPCells</span>
+                        <span class="skill-pill">SingleR</span>
+                        <span class="skill-pill">scRNA-seq</span>
+                        <span class="skill-pill">RNA-seq</span>
+                        <span class="skill-pill">RNA Velocity</span>
+                        <span class="skill-pill">Spatial Transcriptomics</span>
+                        <span class="skill-pill">UniPath</span>
+                        <span class="skill-pill">Monocle</span>
+                        <span class="skill-pill">Cytoscape</span>
+                        <span class="skill-pill">STRING (PPI)</span>
+                    </div>
+                </div>
+
+                <!-- Category 2: Programming & Data Science -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-code"></i></div>
+                        <h3>Programming & Machine Learning</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-pill"><i class="fab fa-r-project"></i> R / RStudio</span>
+                        <span class="skill-pill">PyTorch</span>
+                        <span class="skill-pill">Scikit-learn</span>
+                        <span class="skill-pill">NumPy</span>
+                        <span class="skill-pill">Pandas</span>
+                        <span class="skill-pill">spaCy</span>
+                        <span class="skill-pill">SQL</span>
+                        <span class="skill-pill"><i class="fas fa-terminal"></i> Bash</span>
+                        <span class="skill-pill">XGBoost</span>
+                        <span class="skill-pill">Deep Neural Networks</span>
+                    </div>
+                </div>
+
+                <!-- Category 3: Clinical AI & Deployment -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-cubes"></i></div>
+                        <h3>Clinical AI & Deployment</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill">OpenAI Whisper</span>
+                        <span class="skill-pill">BioBERT</span>
+                        <span class="skill-pill">Flan-T5</span>
+                        <span class="skill-pill">FastAPI</span>
+                        <span class="skill-pill">Streamlit</span>
+                        <span class="skill-pill"><i class="fab fa-docker"></i> Docker</span>
+                        <span class="skill-pill">HL7 FHIR R4</span>
+                        <span class="skill-pill">GitHub Actions CI/CD</span>
+                        <span class="skill-pill">FAISS</span>
+                        <span class="skill-pill">Pydantic v2</span>
+                    </div>
+                </div>
+
+                <!-- Category 4: Structural Biology & CADD -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-cube"></i></div>
+                        <h3>Structural Biology & CADD</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill">AutoDock Vina</span>
+                        <span class="skill-pill">GROMACS MD</span>
+                        <span class="skill-pill">PyMOL</span>
+                        <span class="skill-pill">ChimeraX</span>
+                        <span class="skill-pill">AlphaFold</span>
+                        <span class="skill-pill">ADMET Profiling</span>
+                        <span class="skill-pill">Virtual Screening</span>
+                        <span class="skill-pill">Ligand Binding Free Energy</span>
+                    </div>
+                </div>
+
+                <!-- Category 5: Wet-Lab & Experimental Techniques -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-flask"></i></div>
+                        <h3>Wet-Lab & Analytical Techniques</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill">ITS rDNA Sequencing</span>
+                        <span class="skill-pill">Phylogenetic Analysis (MEGA)</span>
+                        <span class="skill-pill">MS-DIAL</span>
+                        <span class="skill-pill">MetaboAnalyst 6.0</span>
+                        <span class="skill-pill">Small RNA-seq</span>
+                        <span class="skill-pill">miRNA Target Prediction</span>
+                        <span class="skill-pill">Real-Time PCR</span>
+                        <span class="skill-pill">Gene Cloning</span>
+                        <span class="skill-pill">HPLC</span>
+                        <span class="skill-pill">LC-MS</span>
+                        <span class="skill-pill">NMR Spectroscopy</span>
+                    </div>
+                </div>
+
+                <!-- Category 6: Platforms & Development Tools -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <div class="cat-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-pill"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-pill"><i class="fab fa-linux"></i> Linux / HPC</span>
+                        <span class="skill-pill">VS Code</span>
+                        <span class="skill-pill">GraphPad Prism</span>
+                        <span class="skill-pill">OmicsBox</span>
+                        <span class="skill-pill">NCBI BLAST</span>
+                        <span class="skill-pill">Render</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Positions of Responsibility / Leadership Section -->
+    <section class="section leadership" id="leadership">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Positions of <span>Responsibility</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="leadership-grid">
+                <div class="leadership-card glass-card">
+                    <div class="lead-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <div class="lead-content">
+                        <div class="lead-header">
+                            <div>
+                                <h3 class="lead-title">Teaching Assistant – Technical Communication</h3>
+                                <p class="lead-org">IIIT Delhi</p>
+                            </div>
+                            <span class="lead-date">Aug 2026 – Present</span>
+                        </div>
+                        <p class="lead-desc">
+                            Mentoring undergraduate and graduate students in technical writing, research methodology presentation, and professional scientific communication; grading assignments and facilitating interactive class discussions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="leadership-card glass-card">
+                    <div class="lead-icon"><i class="fas fa-square-root-variable"></i></div>
+                    <div class="lead-content">
+                        <div class="lead-header">
+                            <div>
+                                <h3 class="lead-title">Teaching Assistant – Probability & Statistics</h3>
+                                <p class="lead-org">IIIT Delhi</p>
+                            </div>
+                            <span class="lead-date">Jan 2026 – Apr 2026</span>
+                        </div>
+                        <p class="lead-desc">
+                            Conducted dedicated doubt-clearing recitation sessions, designed problem sets on statistical inference and probability distributions, and evaluated examination submissions for a cohort of 150+ students.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="leadership-card glass-card">
+                    <div class="lead-icon"><i class="fas fa-table-tennis-paddle-ball"></i></div>
+                    <div class="lead-content">
+                        <div class="lead-header">
+                            <div>
+                                <h3 class="lead-title">Captain – College Table Tennis Team</h3>
+                                <p class="lead-org">College of Biotechnology, MPKV University, Rahuri</p>
+                            </div>
+                            <span class="lead-date">May 2024 – Feb 2025</span>
+                        </div>
+                        <p class="lead-desc">
+                            Spearheaded team training regimens, tactical conditioning, and player selection for state and university tournaments; fostered camaraderie and athletic discipline leading to podium finishes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Journey Section -->
+    <section class="section journey" id="journey">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Academic <span>Journey</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <!-- IIIT Delhi -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-icon"><i class="fas fa-university"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 – Present</span>
+                            <h3 class="timeline-title">Indraprastha Institute of Information Technology, Delhi (IIIT Delhi)</h3>
+                            <p class="timeline-degree">M.Tech in Computational Biology</p>
+                            <p class="timeline-score"><i class="fas fa-star"></i> CGPA: <strong>8.06 / 10</strong> (till 2nd Sem)</p>
+                            <p class="timeline-desc">Specializing in single-cell genomics, spatial transcriptomics, RNA velocity, and deep learning for biological systems.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MPKV Rahuri -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-icon"><i class="fas fa-flask-vial"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 – 2025</span>
+                            <h3 class="timeline-title">College of Biotechnology, MPKV University, Rahuri</h3>
+                            <p class="timeline-degree">B.Tech in Biotechnology</p>
+                            <p class="timeline-score"><i class="fas fa-star"></i> CGPA: <strong>8.60 / 10</strong></p>
+                            <p class="timeline-desc">Graduated with distinction; awarded Best Student & Student of the Year. Comprehensive training in biochemistry, molecular biology, and bio-algorithms.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Class XII -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-icon"><i class="fas fa-school"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2018 – 2020</span>
+                            <h3 class="timeline-title">MPS & HSE Madha, Solapur</h3>
+                            <p class="timeline-degree">Class XII (Higher Secondary Certificate - Maharashtra State Board)</p>
+                            <p class="timeline-score"><i class="fas fa-star"></i> Percentage: <strong>81.23%</strong></p>
+                            <p class="timeline-desc">Rigorous coursework in Physics, Chemistry, Biology, and Mathematics with distinguished academic performance.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Class X -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-icon"><i class="fas fa-book-open"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2017 – 2018</span>
+                            <h3 class="timeline-title">New English School, Solapur</h3>
+                            <p class="timeline-degree">Class X (Secondary School Certificate - Maharashtra State Board)</p>
+                            <p class="timeline-score"><i class="fas fa-star"></i> Percentage: <strong>89.80%</strong></p>
+                            <p class="timeline-desc">High academic achievement across natural sciences, mathematics, and languages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Honors, Awards & Fun Facts Section -->
+    <section class="section awards" id="awards">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Honors & <span>Highlights</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Awards Grid -->
+            <div class="awards-grid">
+                <div class="award-card glass-card">
+                    <div class="award-icon trophy"><i class="fas fa-trophy"></i></div>
+                    <div class="award-details">
+                        <span class="award-date">Jan 2025</span>
+                        <h3 class="award-title">Best Student & Student of the Year Award</h3>
+                        <p class="award-org">College of Biotechnology, MPKV University</p>
+                        <p class="award-desc">Conferred for all-round excellence across academic performance, research acumen, laboratory leadership, and sports representation.</p>
+                    </div>
+                </div>
+
+                <div class="award-card glass-card">
+                    <div class="award-icon medal-silver"><i class="fas fa-medal"></i></div>
+                    <div class="award-details">
+                        <span class="award-date">Oct 2025</span>
+                        <h3 class="award-title">Silver Medal – Table Tennis</h3>
+                        <p class="award-org">SPRINT Sports Meet, IIT Guwahati</p>
+                        <p class="award-desc">Secured the national runner-up position competing against elite premier engineering and research institutes across India.</p>
+                    </div>
+                </div>
+
+                <div class="award-card glass-card">
+                    <div class="award-icon medal-gold"><i class="fas fa-award"></i></div>
+                    <div class="award-details">
+                        <span class="award-date">2025</span>
+                        <h3 class="award-title">Gold Medal (TT) & Silver Medal (Volleyball)</h3>
+                        <p class="award-org">KARWAN 2025, IIIT Delhi Inter-Branch Fest</p>
+                        <p class="award-desc">Champion in Table Tennis women's singles and finalist in the Inter-Branch Volleyball tournament representing Computational Biology.</p>
+                    </div>
+                </div>
+
+                <div class="award-card glass-card">
+                    <div class="award-icon science"><i class="fas fa-atom"></i></div>
+                    <div class="award-details">
+                        <span class="award-date">Sept 2023</span>
+                        <h3 class="award-title">First Prize – Undergraduate Science Category</h3>
+                        <p class="award-org">Prawara Science Fiesta 2023</p>
+                        <p class="award-desc">Recognized for novel scientific model presentation in applied biotechnology and innovative agricultural solutions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fun Facts & Passions Grid -->
+            <div class="funfacts-container">
+                <h3 class="funfacts-heading"><i class="fas fa-heart"></i> Beyond the Code & Laboratory</h3>
+                <div class="funfacts-grid">
+                    <div class="funfact-card glass-card">
+                        <div class="funfact-icon tt"><i class="fas fa-table-tennis-paddle-ball"></i></div>
+                        <h4>Competitive Athlete</h4>
+                        <p>Whether commanding the table tennis court as captain or playing volleyball, sports fuel my energy, tactical resilience, and focus.</p>
+                    </div>
+
+                    <div class="funfact-card glass-card">
+                        <div class="funfact-icon bio"><i class="fas fa-dna"></i></div>
+                        <h4>Bilingual in Bio & Tech</h4>
+                        <p>Comfortable pipetting micro-volumes at the wet-bench and training deep neural networks on GPU clusters. Truly bridging two worlds!</p>
+                    </div>
+
+                    <div class="funfact-card glass-card">
+                        <div class="funfact-icon music"><i class="fas fa-headphones"></i></div>
+                        <h4>Sound & Solitude</h4>
+                        <p>Music is my constant focus booster when writing complex R scripts, debugging PyTorch autoencoders, or annotating single-cell clusters.</p>
+                    </div>
+
+                    <div class="funfact-card glass-card">
+                        <div class="funfact-icon mentor"><i class="fas fa-lightbulb"></i></div>
+                        <h4>Lifelong Mentorship</h4>
+                        <p>Passionate about explaining intricate scientific ideas cleanly—from TA office hours to writing open-source clinical and biological tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Messaging Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Left Column: Details & Address -->
+                <div class="contact-left">
+                    <div class="contact-card glass-card">
+                        <h3 class="contact-heading">Let's Discuss Biology, AI & Opportunities</h3>
+                        <p class="contact-intro">
+                            Whether you're interested in collaborating on single-cell genomics, discussing clinical NLP innovations, exploring research opportunities, or just saying hello—my inbox is always open!
+                        </p>
+
+                        <!-- Direct Connect Methods -->
+                        <div class="contact-methods">
+                            <a href="mailto:ashwini25177@iiitd.ac.in" class="method-item">
+                                <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <span class="method-label">Institutional Email</span>
+                                    <span class="method-val">ashwini25177@iiitd.ac.in</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:+919699121001" class="method-item">
+                                <div class="method-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <span class="method-label">Phone</span>
+                                    <span class="method-val">+91 96991 21001</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Current Address Card -->
+                        <div class="location-box">
+                            <div class="loc-icon"><i class="fas fa-location-dot"></i></div>
+                            <div class="loc-text">
+                                <h4>Current Residence</h4>
+                                <address>
+                                    Girls Hostel, IIIT Delhi<br>
+                                    Okhla Industrial Estate, Phase III<br>
+                                    Near Govindpuri Metro Station<br>
+                                    New Delhi, DELHI 110020, India
+                                </address>
+                                <a href="https://maps.app.goo.gl/hf9iLAkKWFodutFi8" target="_blank"
+                                    rel="noopener noreferrer" class="map-link-btn">
+                                    <i class="fas fa-map-marked-alt"></i> View Campus on Google Maps
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Messaging Form -->
+                <div class="contact-right">
+                    <div class="form-container glass-card">
+                        <div class="form-top">
+                            <h3 class="form-title"><i class="fas fa-envelope-open-text"></i> Send Me a Message</h3>
+                            <p class="form-desc">Fill out this form and I will get back to you promptly.</p>
+                        </div>
+
+                        <form action="https://formspree.io/f/mlgeyody" method="POST" class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <input type="text" name="name" id="name" required placeholder=" ">
+                                <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" required placeholder=" ">
+                                <label for="email"><i class="fas fa-envelope"></i> Your Email Address</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="subject" id="subject" required placeholder=" ">
+                                <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="message" id="message" rows="5" required placeholder=" "></textarea>
+                                <label for="message"><i class="fas fa-comment-dots"></i> Your Message</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit-btn" id="submitBtn">
+                                <span class="btn-text">Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+
+                            <div class="form-status" id="formStatus"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deep-Dive Project Modal -->
+    <div class="modal-overlay" id="projectModal" aria-hidden="true">
+        <div class="modal-container">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+            <div class="modal-content" id="modalContent">
+                <!-- Injected via script.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <i class="fas fa-dna"></i> Ashwini<span>.</span>
+                    </a>
+                    <p class="footer-tagline">Decoding Cellular Complexity through Machine Learning & Single-Cell Genomics.</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#thesis">Thesis</a>
+                    <a href="#research">Research</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#journey">Journey</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/ashwini-s-gudekar-a92103376/" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ashwini25177" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/ashwini_s_gudekar/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:ashwini25177@iiitd.ac.in" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ashwini S. Gudekar. All rights reserved.</p>
+                <p class="footer-subtext">Designed with precision in light blue glassmorphic aesthetic.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
